@@ -1,2 +1,67 @@
 /* Journey to the Center of the Earth Practicum */
 /* Graham Black */
+
+header
+{
+text-align: center;
+border: 2px solid #886644;
+box-shadow: black;
+background-color: black;
+backface-visibility: 75%;
+background-image: url(../img/cave.jpg);
+background-size: 100%;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+}
+nav
+{
+border: 2px solid #886644;
+box-shadow: black;
+color: black;
+background-color: white;
+backface-visibility: 75%;
+text-align: center;
+}
+#cryp{
+  size: contain;
+}
+figcaption{
+  text-align: center;
+}
+
+html
+{
+background-color: #765729;
+}
+main
+{
+margin-left: 1rem;
+margin-right: 1rem;
+margin-bottom: 2rem;
+border: 2px solid #886644;
+box-shadow: black;
+background-color: white;
+backface-visibility: 75%;
+}
+#cover
+{
+  float: left;
+}
+aside
+{
+border: 2px solid #886644;
+box-shadow: black;
+background-color: white;
+backface-visibility: 75%;
+}
+footer
+{
+margin-top: 1rem;
+border: 2px solid #886644;
+box-shadow: black;
+color: black;
+background-color: white;
+backface-visibility: 75%;
+text-align: center;
+}

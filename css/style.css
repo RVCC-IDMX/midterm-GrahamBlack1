@@ -1,2 +1,123 @@
 /* Journey to the Center of the Earth Practicum */
 /* Graham Black */
+a{
+    color: black;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+header
+{
+text-align: center;
+border: 2px solid #886644;
+box-shadow: black;
+background-color: black;
+backface-visibility: 75%;
+background-image: url(../img/cave.jpg);
+background-size: 100%;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+}
+nav
+{
+border: 2px solid #886644;
+box-shadow: black;
+color: black;
+background-color: white;
+backface-visibility: 75%;
+text-align: center;
+font-size: 30px;
+}
+#cryp{
+  size: contain;
+  float: center;
+}
+figcaption{
+  text-align: center;
+}
+
+html
+{
+background-color: #765729;
+}
+main
+{
+margin-left: 1rem;
+margin-right: 1rem;
+margin-bottom: 2rem;
+border: 2px solid #886644;
+box-shadow: black;
+background-color: white;
+backface-visibility: 75%;
+}
+#cover
+{
+  float: left;
+}
+aside
+{
+border: 2px solid #886644;
+box-shadow: black;
+background-color: white;
+backface-visibility: 75%;
+}
+footer
+{
+margin-top: 1rem;
+border: 2px solid #886644;
+box-shadow: black;
+color: black;
+background-color: white;
+backface-visibility: 75%;
+text-align: center;
+}
+@media screen and (min-width:70rem){
+    ul{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      }
+    ul{
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      font-stretch: wider;
+      }
+    #fr{
+      font-style: italic;
+    } 
+    #character
+    {
+      font-style: bold;
+    }
+    #h2{
+      font-style: unset;
+     text-underline-position: auto;
+    }
+    html{
+      background-color: #765729;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}
+@media screen and (min-width:786rem){
+    aside{
+      display: grid;
+      grid-template-columns: 3fr 2fr 1fr;
+    }
+}
+@media screen and (min-width:1024rem){
+    aside{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    html{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
